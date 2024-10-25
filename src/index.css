@@ -1,0 +1,8 @@
+.hide_logo {
+    width: 300px;
+    height: 60px;
+    background-color: #e3e3e3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
