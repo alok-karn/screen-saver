@@ -8,7 +8,9 @@ export default function App() {
                 position: "relative",
             }}>
             <Spline scene="https://prod.spline.design/CL19mckxbQRdOENE/scene.splinecode" />
-            <div className="hide_logo"></div>
+            <div className="hide_logo">
+                <a href="https://www.alokkarn.tech">alokkarn.tech ❤️ </a>
+            </div>
         </main>
     );
 }

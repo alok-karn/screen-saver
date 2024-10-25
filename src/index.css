@@ -5,4 +5,16 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide_logo > a {
+    text-transform: lowercase;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
 }
