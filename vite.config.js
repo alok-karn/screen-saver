@@ -3,7 +3,10 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
 const manifestForPlugIn = {
-    registerType: "prompt",
+    registerType: "autoUpdate",
+    workbox: {
+        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+    },
     includeAssests: ["favicon.ico", "apple-touc-icon.png", "masked-icon.svg"],
     manifest: {
         name: "Alok | ScreenSaver",
